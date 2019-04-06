@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="@string/kode"
+        android:textColor="@color/hitam"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/kode1"
+        android:textColor="@color/hitam"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/kode"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/rounded"
+        android:hint="Masukan Kode Disini"
+        android:inputType="textCapCharacters"
+        android:maxLength="7"
+        android:textAlignment="center"
+
+
+        />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="255dp"
+        android:textColor="@color/hitam"
+        android:text="@string/syarat"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/btnmasuk"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn"
+        android:text="@string/masuk"
+
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/shadow">
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txt2"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/hitam"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/btn2"
+            android:text="@string/btn2"
+            android:textColor="@color/putih"
+
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

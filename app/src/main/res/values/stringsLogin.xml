@@ -1,0 +1,16 @@
+
+<resources>
+
+    <string name="kode">Kode Keluarga</string>
+    <string name="kode1">Ketikan Kode Keluarga Yang Ayah Bunda Miliki Disini</string>
+    <string name="kode2">Miliki Disini</string>
+    <string name="masuk">Masuk</string>
+    <string name="syarat">Dengan Menekan Tombol Masuk Berati Anda Menyetujui <b>     Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
+    <string name="syarat1"></string>
+    <string name="syarat2"></string>
+    <string name="btn2">Beli Kode Keluarga Disini</string>
+    <string name="txt2">Belum Punya Kode Keluarga ?</string>
+
+
+
+</resources>

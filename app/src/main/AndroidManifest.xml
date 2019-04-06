@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.erzi.if11">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_get_start_timitory"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_get_start_timitory"
+        android:supportsRtl="true"
+        android:noHistory="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".hasilActivity"></activity>
+        <activity android:name=".dataActivity" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

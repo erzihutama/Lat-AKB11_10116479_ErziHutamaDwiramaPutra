@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lat1Erzi</string>
+    <string name="judul1">Monitory Membantu Anda Mengontrol HP Anak</string>
+    <string name="judul2"></string>
+    <string name="mulai">Mulai</string>
+    <string name="selanjutnya">selanjutnya</string>
+    <string name="beres">Beres! Sekarang Kamu udah bisa mengecek penggunaan hp mu tiapi hari buat bantu kamu ngatur waktu</string>
+    <string name="nama">Nama Panggilan Kamu</string>
+    <string name="umur">Umur Kamu</string>
+</resources>
